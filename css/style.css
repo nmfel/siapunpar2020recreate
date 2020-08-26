@@ -139,3 +139,8 @@ hr.zag {
   font-size: 30px;
   margin-left: 150px;
 }
+
+.page-footer {
+  background-color: #262626;
+  color: #fff;
+}
