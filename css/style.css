@@ -87,35 +87,6 @@ body {
   margin-bottom: 40px;
 } */
 
-hr.zig,
-hr.zag {
-  border: none;
-  height: 30px;
-  margin: 0 50px;
-}
-
-hr.zig {
-  background: linear-gradient(-135deg, #ffffff 20px, rgba(0, 0, 0, 0) 0) 0 5px,
-    linear-gradient(135deg, #ffffff 20px, rgba(0, 0, 0, 0) 0) 0 5px;
-  background-color: rgba(0, 0, 0, 0);
-  background-position: center bottom;
-  background-repeat: repeat-x;
-  background-size: 20px 40px;
-  z-index: 1;
-  position: relative;
-}
-
-hr.zag {
-  background: linear-gradient(-135deg, #333 20px, rgba(0, 0, 0, 0) 0) 0 5px,
-    linear-gradient(135deg, #333333 20px, #ffffff 0) 0 5px;
-  background-color: rgba(0, 0, 0, 0);
-  background-position: center bottom;
-  background-repeat: repeat-x;
-  background-size: 20px 40px;
-  z-index: -1;
-  margin-top: -28px;
-}
-
 /* .settingText {
   margin-top: 45px;
 }
@@ -143,4 +114,19 @@ hr.zag {
 .page-footer {
   background-color: #262626;
   color: #fff;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.backgroundHitamfooter {
+  background-color: #262626;
+  display: run-in;
 }

@@ -25,3 +25,8 @@ var x = setInterval(function () {
     clearInterval(x);
   }
 }, 1000);
+
+// refresh page /60seconds
+// setTimeout(function () {
+//   location = "";
+// }, 60000);
